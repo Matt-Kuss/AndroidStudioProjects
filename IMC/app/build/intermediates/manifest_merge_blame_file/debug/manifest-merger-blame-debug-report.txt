@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:5:5-37:19
+12        android:allowBackup="true"
+12-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /home/matt/.gradle/caches/transforms-3/205feb206244c8c1b4b56fcdc8d69988/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.IMC" >
+22-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:13:9-41
+23        <activity
+23-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:15:9-23:20
+24            android:name="com.example.imc.MainActivity2"
+24-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:16:13-42
+25            android:exported="false"
+25-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:17:13-37
+26            android:label="@string/title_activity_main2"
+26-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:18:13-57
+27            android:theme="@style/Theme.IMC.NoActionBar" >
+27-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:19:13-57
+28            <meta-data
+28-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:20:13-22:36
+29                android:name="android.app.lib_name"
+29-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:21:17-52
+30                android:value="" />
+30-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:22:17-33
+31        </activity>
+32        <activity
+32-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:24:9-36:20
+33            android:name="com.example.imc.MainActivity"
+33-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:25:13-41
+34            android:exported="true" >
+34-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:26:13-36
+35            <intent-filter>
+35-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:27:13-31:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:28:17-69
+36-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:28:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:30:17-77
+38-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:30:27-74
+39            </intent-filter>
+40
+41            <meta-data
+41-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:20:13-22:36
+42                android:name="android.app.lib_name"
+42-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:21:17-52
+43                android:value="" />
+43-->/home/matt/AndroidStudioProjects/IMC/app/src/main/AndroidManifest.xml:22:17-33
+44        </activity>
+45
+46        <uses-library
+46-->[androidx.window:window:1.0.0] /home/matt/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+47            android:name="androidx.window.extensions"
+47-->[androidx.window:window:1.0.0] /home/matt/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0] /home/matt/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+49        <uses-library
+49-->[androidx.window:window:1.0.0] /home/matt/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+50            android:name="androidx.window.sidecar"
+50-->[androidx.window:window:1.0.0] /home/matt/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+51            android:required="false" />
+51-->[androidx.window:window:1.0.0] /home/matt/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+55            android:authorities="com.example.imc.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.2.0] /home/matt/.gradle/caches/transforms-3/412372332f980a5c4ef0364c55a99af0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/matt/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/matt/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/matt/.gradle/caches/transforms-3/a8199b6bb025d711471524267dd78014/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+63        </provider>
+64    </application>
+65
+66</manifest>

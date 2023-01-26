@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F0F0"
+    tools:context=".detalhes">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="Nome"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewDrinkName"
+        app:layout_constraintEnd_toStartOf="@+id/textViewDrinkName"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDrinkName"
+        android:layout_width="189dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textViewIngredientes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewNome"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewIngredientes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:drawable/edit_text"
+        android:text="Ingredientes"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDrinkName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="90dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="24dp"
+        android:text="Preparo"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPreparo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIngredientes" />
+
+    <TextView
+        android:id="@+id/textViewPreparo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="261dp"
+        android:background="@android:drawable/edit_text"
+        android:lines="6"
+        android:maxLines="10"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

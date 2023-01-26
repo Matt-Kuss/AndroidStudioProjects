@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-mergeDebugResources-39:/layout/activity_main2.xml",
+        "source": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-main-42:/layout/activity_main2.xml"
+    },
+    {
+        "merged": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.imc.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.imc.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-mergeDebugResources-39:/layout/fragment_first.xml",
+        "source": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-main-42:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-mergeDebugResources-39:/layout/content_main.xml",
+        "source": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-main-42:/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-mergeDebugResources-39:/layout/fragment_second.xml",
+        "source": "/home/matt/.gradle/daemon/7.4/com.example.imc.app-main-42:/layout/fragment_second.xml"
+    }
+]
